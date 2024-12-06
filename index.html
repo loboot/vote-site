@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      .panel {
+        background: center / contain no-repeat url('./assets/image/12.5-投票_画板 1.jpg');
+      }
+
+      .container {
+        width: 100vw;
+        aspect-ratio: 16 / 9; /* 新方式，简洁且适配 */
+        margin: 0 auto;
+      }
+
+      .wrapper {
+        min-width: 80%;
+        margin-left: 10%;
+        margin-right: 20%;
+      }
+
+      .icon1 {
+        width: 34%;
+      }
+      .icon2 {
+        width: 44%;
+      }
+      .icon3 {
+        width: 16%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container panel relative">
+      <div class="w-full h-full flex flex-col justify-center items-center relative">
+        <div class="wrapper flex items-center justify-bewteen">
+          <div class="flex-1 flex items-center" style="min-width: 60%">
+            <img class="icon1 h-20 object-contain" src="./assets/image/12.5-投票-02.png" alt="" />
+            <img class="icon2 object-contain bottom-4 relative" src="./assets/image/12.5-投票-05.png" alt="" />
+          </div>
+          <div class="flex flex-wrap items-center justify-bewteen gap-2">
+            <img
+              class="icon3 object-contain cursor-pointer red"
+              data-key="0"
+              src="./assets/icon/红色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer red"
+              data-key="1"
+              src="./assets/icon/红色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer red"
+              data-key="2"
+              src="./assets/icon/红色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer red"
+              data-key="3"
+              src="./assets/icon/红色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer red"
+              data-key="4"
+              src="./assets/icon/红色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer red"
+              data-key="5"
+              src="./assets/icon/红色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer red"
+              data-key="6"
+              src="./assets/icon/红色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer red"
+              data-key="7"
+              src="./assets/icon/红色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer red"
+              data-key="8"
+              src="./assets/icon/红色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer red"
+              data-key="9"
+              src="./assets/icon/红色爱心-空.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="wrapper flex items-center justify-center">
+          <div class="flex-1 flex items-center" style="min-width: 60%">
+            <img class="icon1 h-20 object-contain" src="./assets/image/12.5-投票-03.png" alt="" />
+            <img class="icon2 object-contain bottom-4 relative" src="./assets/image/12.5-投票-06.png" alt="" />
+          </div>
+          <div class="flex flex-wrap items-center justify-bewteen gap-2">
+            <img
+              class="icon3 object-contain cursor-pointer yellow"
+              data-key="0"
+              src="./assets/icon/黄色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer yellow"
+              data-key="1"
+              src="./assets/icon/黄色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer yellow"
+              data-key="2"
+              src="./assets/icon/黄色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer yellow"
+              data-key="3"
+              src="./assets/icon/黄色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer yellow"
+              data-key="4"
+              src="./assets/icon/黄色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer yellow"
+              data-key="5"
+              src="./assets/icon/黄色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer yellow"
+              data-key="6"
+              src="./assets/icon/黄色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer yellow"
+              data-key="7"
+              src="./assets/icon/黄色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer yellow"
+              data-key="8"
+              src="./assets/icon/黄色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer yellow"
+              data-key="9"
+              src="./assets/icon/黄色爱心-空.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="wrapper flex items-center justify-center">
+          <div class="flex-1 flex items-center" style="min-width: 60%">
+            <img class="icon1 h-20 object-contain" src="./assets/image/12.5-投票-04.png" alt="" />
+            <img class="icon2 object-contain bottom-4 relative" src="./assets/image/12.5-投票-07.png" alt="" />
+          </div>
+          <div class="flex flex-wrap items-center justify-bewteen gap-2">
+            <img
+              class="icon3 object-contain cursor-pointer blue"
+              data-key="0"
+              src="./assets/icon/蓝色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer blue"
+              data-key="1"
+              src="./assets/icon/蓝色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer blue"
+              data-key="2"
+              src="./assets/icon/蓝色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer blue"
+              data-key="3"
+              src="./assets/icon/蓝色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer blue"
+              data-key="4"
+              src="./assets/icon/蓝色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer blue"
+              data-key="5"
+              src="./assets/icon/蓝色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer blue"
+              data-key="6"
+              src="./assets/icon/蓝色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer blue"
+              data-key="7"
+              src="./assets/icon/蓝色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer blue"
+              data-key="8"
+              src="./assets/icon/蓝色爱心-空.png"
+              alt=""
+            />
+            <img
+              class="icon3 object-contain cursor-pointer blue"
+              data-key="9"
+              src="./assets/icon/蓝色爱心-空.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const redHearts = document.querySelectorAll('.red');
+      const blueHearts = document.querySelectorAll('.blue');
+      const yellowHearts = document.querySelectorAll('.yellow');
+
+      function clickFn(el, type) {
+        const key = el.getAttribute('data-key');
+        const index = Number(key);
+        activateImages(index, type);
+        // const clicked = el.getAttribute('data-clicked');
+
+        // if (clicked === 'true') {
+        //   el.setAttribute('data-clicked', false);
+        //   el.setAttribute('src', `./assets/icon/${type}色爱心-空.png`);
+        // } else {
+        //   el.setAttribute('src', `./assets/icon/${type}色爱心-实.png`);
+        //   el.setAttribute('data-clicked', true);
+        // }
+      }
+
+      redHearts.forEach((el) => {
+        el.addEventListener('click', () => clickFn(el, '红'));
+      });
+
+      blueHearts.forEach((el) => {
+        el.addEventListener('click', () => clickFn(el, '蓝'));
+      });
+
+      yellowHearts.forEach((el) => {
+        el.addEventListener('click', () => clickFn(el, '黄'));
+      });
+
+      function activateImages(index, type) {
+        if (type === '红') {
+          redHearts.forEach((image, idx) => {
+            const activated = image.getAttribute('activated');
+            // 如果当前图片的索引小于等于点击的图片索引，则激活它
+            if (idx <= index) {
+              image.setAttribute('activated', true);
+              image.setAttribute('src', `./assets/icon/${type}色爱心-实.png`);
+            } else {
+              // 否则，将其设置为非激活状态
+              image.setAttribute('src', `./assets/icon/${type}色爱心-空.png`);
+              image.removeAttribute('activated');
+            }
+
+            if (idx === index && !!activated) {
+              image.setAttribute('src', `./assets/icon/${type}色爱心-空.png`);
+              image.removeAttribute('activated');
+            }
+          });
+        } else if (type === '蓝') {
+          blueHearts.forEach((image, idx) => {
+            const activated = image.getAttribute('activated');
+            // 如果当前图片的索引小于等于点击的图片索引，则激活它
+            if (idx <= index) {
+              image.setAttribute('activated', true);
+              image.setAttribute('src', `./assets/icon/${type}色爱心-实.png`);
+            } else {
+              // 否则，将其设置为非激活状态
+              image.setAttribute('src', `./assets/icon/${type}色爱心-空.png`);
+              image.removeAttribute('activated');
+            }
+
+            if (idx === index && !!activated) {
+              image.setAttribute('src', `./assets/icon/${type}色爱心-空.png`);
+              image.removeAttribute('activated');
+            }
+          });
+        } else if (type === '黄') {
+          yellowHearts.forEach((image, idx) => {
+            const activated = image.getAttribute('activated');
+            // 如果当前图片的索引小于等于点击的图片索引，则激活它
+            if (idx <= index) {
+              image.setAttribute('activated', true);
+              image.setAttribute('src', `./assets/icon/${type}色爱心-实.png`);
+            } else {
+              // 否则，将其设置为非激活状态
+              image.setAttribute('src', `./assets/icon/${type}色爱心-空.png`);
+              image.removeAttribute('activated');
+            }
+
+            if (idx === index && !!activated) {
+              image.setAttribute('src', `./assets/icon/${type}色爱心-空.png`);
+              image.removeAttribute('activated');
+            }
+          });
+        }
+      }
+    </script>
+  </body>
+</html>
